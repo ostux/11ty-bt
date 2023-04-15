@@ -1,0 +1,29 @@
+{
+  "name": "ostux-bootstrap-eleventy-boilerplate",
+  "version": "0.0.1",
+  "description": "Ostux Bootstrap 11ty boilerplate",
+  "main": "index.html",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-img": "^3.1.0",
+    "@grimlink/eleventy-plugin-sass": "^1.0.3",
+    "bootstrap": "^5.3.0-alpha3",
+    "critical": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "eleventy-google-fonts": "^0.1.0",
+    "eleventy-plugin-postcss": "^1.0.4",
+    "eleventy-plugin-purgecss": "^0.4.0",
+    "@sherby/eleventy-plugin-files-minifier": "github:ostux/eleventy-plugin-files-minifier",
+    "sass": "^1.60.0"
+  },
+  "scripts": {
+    "serve": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "keywords": [
+    "11ty bootstrap sass ostux template"
+  ],
+  "author": "Andras Toth",
+  "license": "MIT",
+  "dependencies": {}
+}
